@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Open_ended" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary & Secondary colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Window background -->
+        <item name="android:windowBackground">?attr/colorSurface</item>
+        <!-- Status bar & nav bar -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- App Theme -->
+    <style name="Theme.Open_ended" parent="Base.Theme.Open_ended" />
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg">
+
+    <!-- Add Health Data -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        app:cornerRadius="16dp"
+        android:backgroundTint="#FFC0CB"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- View History -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View History"
+        app:cornerRadius="16dp"
+        android:backgroundTint="#FF69B4"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Steps Sensor -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Steps"
+        app:cornerRadius="16dp"
+        android:backgroundTint="#FF1493"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/tvHealthQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading Daily Tip..."
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:textStyle="italic"
+        android:background="#E0F7FA"/>
+</LinearLayout>

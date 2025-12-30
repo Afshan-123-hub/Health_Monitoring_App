@@ -1,0 +1,7 @@
+<resources>
+    <color name="colorPrimary">#FF69B4</color>      <!-- Deep Pink -->
+    <color name="colorPrimaryVariant">#FFC0CB</color> <!-- Light Pink -->
+    <color name="colorSecondary">#FFB6C1</color>    <!-- Soft Pink -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+</resources>
